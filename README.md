@@ -3,8 +3,11 @@ An example `{shiny}` app packaged with `{golem}` and using `{shiny.i18n}` for tr
 
 # To run
 
+1. Clone/fork/download zip of this repo  
+
+2. Go to the root `golem.i18n` folder and run:  
+
 ```
-devtools::install_github("discindo/shiny.golem.i18n")
-library(golem.i18n)
+devtools::load_all()
 run_app()
 ```
