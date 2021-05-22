@@ -7,11 +7,14 @@ Authors@R:
            role = c("aut", "cre"),
            email = "your@email.com")
 Description: What the package does (one paragraph).
-License: What license is it under?
+License: MIT + file LICENSE
 Imports: 
     config (>= 0.3.1),
     golem (>= 0.3.1),
-    shiny (>= 1.6.0.9000)
+    shiny (>= 1.6.0.9000),
+    shiny.i18n (>= 0.2.0)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
+Remotes: 
+    Appsilon/shiny.i18n
