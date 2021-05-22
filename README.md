@@ -4,7 +4,7 @@ An example `{shiny}` app packaged with `{golem}` and using `{shiny.i18n}` for tr
 # To run
 
 ```
-devtools::install_packages("discindo/shiny.golem.i18n")
+devtools::install_github("discindo/shiny.golem.i18n")
 library(golem.i18n)
 run_app()
 ```
